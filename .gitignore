@@ -1,0 +1,4 @@
+output/*
+.kitchen/*
+.librarian/*
+tmp/

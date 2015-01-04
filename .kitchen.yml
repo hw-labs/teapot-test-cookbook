@@ -1,0 +1,16 @@
+---
+driver:
+  name: vagrant
+  synced_folders:
+      - ["output", "/tmp/output"]
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-12.04
+
+suites:
+  - name: default
+    run_list: ["teapot-handler","http-fail"]
+    attributes:

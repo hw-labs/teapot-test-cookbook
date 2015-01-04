@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'apt'
+cookbook 'chef_handler'
+cookbook 'test-cookbook', :path => '.'
+cookbook 'teapot-handler', :git => 'git@github.com:hw-labs/teapot-handler-cookbook.git'
+cookbook 'http-fail', :git => 'git@github.com:hw-labs/http-fail-cookbook.git'
