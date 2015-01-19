@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'test-kitchen'
+gem 'test-kitchen', '~> 1.2.0'
 gem 'kitchen-vagrant'
 gem 'librarian-chef'
 gem 'chefspec'

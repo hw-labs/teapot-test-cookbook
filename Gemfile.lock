@@ -119,4 +119,4 @@ DEPENDENCIES
   chefspec
   kitchen-vagrant
   librarian-chef
-  test-kitchen
+  test-kitchen (~> 1.2.0)
