@@ -1,4 +1,4 @@
-require_relative "../spec_helper"
+require_relative "spec_helper"
 
 describe "test-cookbook" do
 
@@ -6,8 +6,8 @@ describe "test-cookbook" do
   let(:node)      { runner.node }
   let(:chef_run)  { runner.converge(described_recipe) }
 
-  it "includes a broken recipe" do
-    expect(chef_run).to include_recipe("will_not_work::_broken")
+  it "does not include a broken recipe" do
+    expect(chef_run).not_to include_recipe("recipe::broken")
   end
 
   it "includes a working recipe" do
