@@ -1,7 +1,3 @@
-chef_gem 'pry'
-require 'pry'
-binding.pry
-
 remote_file "500 me" do
   source "http://httpstat.us/500"
 end
