@@ -12,5 +12,5 @@ platforms:
 
 suites:
   - name: default
-    run_list: ["teapot-handler","http-fail"]
+    run_list: ["test-cookbook", "teapot-handler","http-fail"]
     attributes:
