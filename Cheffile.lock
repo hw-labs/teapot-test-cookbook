@@ -14,7 +14,7 @@ GIT
 GIT
   remote: https://github.com/hw-labs/teapot-handler-cookbook.git
   ref: master
-  sha: b16228cdc03a3cbb271b2cb16fbe56c3964e2a5c
+  sha: 03d3cb44d52d9b78e149f12e1a4aa6b54f11464a
   specs:
     teapot-handler (0.1.0)
       chef_handler (>= 0.0.0)
