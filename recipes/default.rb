@@ -1,8 +1,13 @@
-include_recipe 'http-fail'
+chef_gem 'pry'
+require 'pry'
+binding.pry
 
-
-package "will_fail"
+remote_file "500 me" do
+  source "http://httpstat.us/500"
+end
 
 remote_file "broken" do
   source "http://localhost/this/will/surely/fail.txt"
 end
+
+package "will_fail"
