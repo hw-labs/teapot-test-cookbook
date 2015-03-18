@@ -11,4 +11,4 @@
 #   source "http://localhost/this/will/surely/fail.txt"
 # end
 
-package "nginx"
+package "git"
