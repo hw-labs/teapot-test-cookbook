@@ -11,7 +11,7 @@ describe "test-cookbook" do
   end
 
   it "includes a working recipe" do
-    expect(chef_run).to include_recipe("http-fail::default")
+    expect(chef_run).to include_recipe("test-cookbook::default")
   end
 
 end
