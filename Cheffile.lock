@@ -5,14 +5,14 @@ SITE
     chef_handler (1.1.6)
 
 GIT
-  remote: https://github.com/hw-labs/http-fail-cookbook.git
+  remote: git@github.com:hw-labs/http-fail-cookbook.git
   ref: master
   sha: 04dab0b1039839f90f72163866838f38af1ee576
   specs:
     http-fail (0.1.0)
 
 GIT
-  remote: https://github.com/hw-labs/teapot-handler-cookbook.git
+  remote: git@github.com:hw-labs/teapot-handler-cookbook.git
   ref: master
   sha: 715318d723eeec7434726f015fa360e18577ee46
   specs:
