@@ -8,4 +8,4 @@ gem 'vagrant',
   :tag => 'v1.7.2'
 gem 'kitchen-vagrant'
 gem 'librarian-chef'
-gem 'chefspec'
+gem 'chefspec', '~> 4.1.0'
