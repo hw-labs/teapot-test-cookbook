@@ -5,4 +5,4 @@ source "https://rubygems.org"
 gem 'test-kitchen', '~> 1.4.0'
 gem 'librarian-chef'
 gem 'chefspec', '~> 4.1.0'
-gem 'kitchen-miasma', :path => File.expand_path('~/github/kitchen-miasma')
+gem 'kitchen-miasma', :git => 'https://github.com/cwjohnston/kitchen-miasma.git'
