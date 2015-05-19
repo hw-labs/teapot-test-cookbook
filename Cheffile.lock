@@ -1,8 +1,8 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
-    apt (2.6.1)
-    chef_handler (1.1.6)
+    apt (2.7.0)
+    chef_handler (1.1.8)
 
 GIT
   remote: git@github.com:hw-labs/http-fail-cookbook.git
@@ -14,7 +14,7 @@ GIT
 GIT
   remote: git@github.com:hw-labs/teapot-handler-cookbook.git
   ref: master
-  sha: 715318d723eeec7434726f015fa360e18577ee46
+  sha: 397e3a7f27bb88b213f2bf9507c2a41a3340564b
   specs:
     teapot-handler (0.1.0)
       chef_handler (>= 0.0.0)
